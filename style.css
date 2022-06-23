@@ -151,3 +151,28 @@ main {
     color: #3367d6;
     border-bottom: .125rem solid #3367d6;
 }
+/*------------------
+    FOOTER
+------------------*/
+footer {
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: .625rem;
+}
+footer .links a {
+    color: #9f9f9f;
+    font-size: small;
+    font-weight: 300;
+}
+footer .language, footer .links {
+    display: flex;
+    gap: .3125rem;
+    align-items: center;
+}
+footer .language {
+    color: #3367d6;
+}
