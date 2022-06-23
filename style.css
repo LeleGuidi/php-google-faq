@@ -12,24 +12,23 @@
 ------------------*/
 body {
     font-family: 'Roboto', sans-serif;
-    -webkit-overflow-scrolling: touch;
     color: rgba(0,0,0,.87);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.54;  
-    -webkit-font-smoothing: antialiased;
 }
 /*------------------
     COMMONS
 ------------------*/
 img {
-    width: 6.25rem;
+    width: 4rem;
 }
 h1 {
     display: inline-block;
     color: rgb(130, 130, 130);
     font-weight: 400;
     margin: 0;
+    font-size: 1.375rem;
 }
 h2 {
     color: #3c4043;
@@ -95,7 +94,8 @@ header {
     right: 0;
     z-index: 10;
     background-color: white;
-    padding: .625rem .625rem;
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    border-bottom: .0625rem solid rgb(130, 130, 130);
 }
 .header_top {
     display: flex;
@@ -115,8 +115,39 @@ header {
 .user_and_settings i:first-child {
     font-size: 1.25rem;
 }
+main {
+    padding-top: 100px;
+}
 .container {
     max-width: 65rem;
     margin: auto;
     padding: 32px;
+}
+/*------------------
+    NAVBAR
+------------------*/
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 2.1875rem;
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    margin: 0;
+}
+.navbar li {
+    padding: 0;
+    line-height: 1rem;
+    padding-bottom: .625rem;
+    border-bottom: .125rem solid transparent;
+
+}
+.navbar a {
+    color: inherit;
+    padding-bottom: .625rem;
+    font-size: 1rem;
+}
+
+.navbar a.active {
+    color: #3367d6;
+    border-bottom: .125rem solid #3367d6;
 }

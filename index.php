@@ -27,7 +27,25 @@
                 <i class="fa-solid fa-circle-user"></i>
             </div>
         </div>
-        <div class="header_bottom"></div>
+        <div class="header_bottom">
+            <ul class="navbar">
+                <li>
+                    <a href="#/">Introduzione</a>
+                </li>
+                <li>
+                    <a href="#/">Norme sulla privacy</a>
+                </li>
+                <li>
+                    <a href="#/">Termini di servizio</a>
+                </li>
+                <li>
+                    <a href="#/">Tecnologie</a>
+                </li>
+                <li>
+                    <a class="active" href="#/">Domande frequenti</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
         <div class="container">
