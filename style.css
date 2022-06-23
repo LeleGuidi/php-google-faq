@@ -4,6 +4,7 @@
 * {
     border: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 /*------------------
@@ -21,6 +22,15 @@ body {
 /*------------------
     COMMONS
 ------------------*/
+img {
+    width: 6.25rem;
+}
+h1 {
+    display: inline-block;
+    color: rgb(130, 130, 130);
+    font-weight: 400;
+    margin: 0;
+}
 h2 {
     color: #3c4043;
     font-weight: 500;
@@ -77,6 +87,34 @@ h3 {
 /*------------------
     CONTAINER
 ------------------*/
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    padding: .625rem .625rem;
+}
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .625rem;
+}
+.logo_and_title, .user_and_settings {
+    display: flex;
+    align-items: center;
+    gap: .375rem;
+}
+.user_and_settings {
+    font-size: 1.875rem;
+    gap: .75rem;
+}
+.user_and_settings i:first-child {
+    font-size: 1.25rem;
+}
 .container {
     max-width: 65rem;
     margin: auto;

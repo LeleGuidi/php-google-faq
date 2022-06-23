@@ -13,10 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>FAQ</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a19c75f45.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-
+        <div class="header_top">
+            <div class="logo_and_title">
+                <img src="img/logogoogle.png" alt="Logo Google">
+                <h1>Privacy e termini</h1>
+            </div>
+            <div class="user_and_settings">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+        <div class="header_bottom"></div>
     </header>
     <main>
         <div class="container">
