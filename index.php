@@ -57,18 +57,23 @@
     </main>
     <footer>
         <div class="container">
-            <div class="links">
-                <a href="#/">Google -</a>
-                <a href="#/">Tutto su Google -</a>
-                <a href="#/">Privacy -</a>
-                <a href="#/">Termini</a>
-            </div>
-            <div class="language">
-            <i class="fa-solid fa-earth-europe"></i>
-            <select name="language">
-                <option value="italia">Italia</option>
-                <option value="inglese">Inglese</option>
-            </select>
+            <div class="row">
+                <div class="links">
+                    <a href="#/">Google</a>
+                    <i class="fa-solid fa-circle"></i>
+                    <a href="#/">Tutto su Google</a>
+                    <i class="fa-solid fa-circle"></i>
+                    <a href="#/">Privacy</a>
+                    <i class="fa-solid fa-circle"></i>
+                    <a href="#/">Termini</a>
+                </div>
+                <div class="language">
+                <i class="fa-solid fa-earth-europe"></i>
+                <select name="language">
+                    <option value="italia">Italia</option>
+                    <option value="inglese">Inglese</option>
+                </select>
+                </div>
             </div>
         </div>  
     </footer>

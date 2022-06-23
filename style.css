@@ -157,16 +157,22 @@ main {
 footer {
     width: 100%;
     background-color: rgb(224, 224, 224);
+    font-size: .75rem;
 }
-footer .container {
+.container {
+    padding: .625rem;
+}
+.row {
     display: flex;
     justify-content: space-between;
-    padding: .625rem;
 }
 footer .links a {
     color: #9f9f9f;
-    font-size: small;
     font-weight: 300;
+}
+footer .links i {
+    font-size: .125rem;
+    color: #9f9f9f;
 }
 footer .language, footer .links {
     display: flex;
