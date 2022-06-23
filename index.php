@@ -19,7 +19,12 @@
 
     </header>
     <main>
-        
+        <div class="container">
+            <?php foreach($faqs as $faq) {
+                echo $faq['domanda'];
+                echo $faq['risposta'];
+            } ?>
+        </div>
     </main>
     <footer>
 
